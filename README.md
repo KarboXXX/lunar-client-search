@@ -1,9 +1,10 @@
 # Lunar Client on Search.
 ## First impressions.
-First of all, you need to run this script as root, so the script can make changes on your `/usr/share/applications` folder. If you want to change the Lunar Client icon, just delete the `lunar-client.png` to your custom one, with the same name before running the script. Note, the following `LunarClient.AppImage` file version is `2.8.7`, so if in case of any errors during installation, that could be the problem.
+First of all, you need to run this script as root, so the script can make changes on your `/usr/share/applications` folder. If you want to change the Lunar Client icon, just delete the `lunar-client.png` to your custom one, with the same name before running the script.
 
 ## Installation.
 As said before, run all commands with sudo to prevent erros!
+And do not forget to install LunarClient AppImage from the [official website](https://www.lunarclient.com/download/), and rename it to `LunarClient.AppImage` so the script can find it automaticaly.
 ```
 git clone https://github.com/KarboXXX/lunar-client-search.git
 cd lunar-client-search
