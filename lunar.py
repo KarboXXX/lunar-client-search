@@ -11,6 +11,9 @@ except:
 print('placing {0} into {1}...'.format(pth + "/LunarClient.AppImage", fpth))
 os.system('cp {0} {1}'.format(pth + "/LunarClient.AppImage", fpth))
 
+print('chmod 777 to .AppImage so it fix a lot of bugs including missing permissions and microsoft login.')
+os.system('chmod 777 {0}'.format(pth + "/LunarClient.AppImage"))
+
 print('placing {0} into {1}...'.format(pth + "/lunar-client.png", fpth))
 os.system('cp {0} {1}'.format(pth + "/lunar-client.png", fpth))
 
